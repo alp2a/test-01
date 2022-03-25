@@ -1,0 +1,11 @@
+<font style="vertical-align: inherit;">{“菜单”： {  
+    “id”：“文件”，
+    “价值”：“文件：”，  
+    “弹出窗口”： {  
+      “菜单”：[ 
+        {"value": "New", "onclick": "CreateNewDoc()"}, 
+        {"value": "打开", "onclick": "OpenDoc()"},  
+        {“值”：“关闭”，“点击”：“关闭文档（）”}] 
+    } 
+ }}
+ </font>
