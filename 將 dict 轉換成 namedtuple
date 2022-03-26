@@ -1,0 +1,6 @@
+produt_dict = {'name': 'Max4', 'price': 6666.2, 'sales': 9, 'ship_fees': True}
+p4 = Product_detail(**produt_dict)
+print(p4)
+
+# 輸出內容：
+>>> Product(name='Max4', price=6666.2, sales=9, ship_fees=True)
