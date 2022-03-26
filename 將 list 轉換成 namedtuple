@@ -1,0 +1,6 @@
+product_list = ['Max3', 6666.3, 10, True]
+p3 = Product_detail._make(product_list)
+print(p3)
+
+# 輸出內容：
+>>> Product(name='Max3', price=6666.3, sales=10, ship_fees=True)
