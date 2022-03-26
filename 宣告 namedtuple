@@ -1,0 +1,11 @@
+Product_detail = namedtuple('Product', ['name', 'price', 'sales', 'ship_fees'])
+
+p0 = Product_detail('Max0', 6666.6, 10, True)
+p1 = Product_detail('Max1', 6666.5, 12, False)
+p2 = Product_detail('Max2', 6666.4, 11, True)
+print(p0, p1, p2)
+
+# 輸出內容：
+>>> Product(name='Max0', price=6666.6, sales=10, ship_fees=True) 
+>>> Product(name='Max1', price=6666.5, sales=12, ship_fees=False) 
+>>> Product(name='Max2', price=6666.4, sales=11, ship_fees=True)
