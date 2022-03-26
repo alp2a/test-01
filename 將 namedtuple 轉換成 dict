@@ -1,0 +1,5 @@
+produt_nametuple_to_dict = p4._asdict()
+print(produt_nametuple_to_dict)
+
+# 輸出內容：
+>>> OrderedDict([('name', 'Max4'), ('price', 6666.2), ('sales', 9), ('ship_fees', True)])
